@@ -76,7 +76,7 @@ h1 span::before{
     left: -5%;
     width: 334px;
     height: 98px;
-    background:url(../images/Vector1.png) no-repeat center center;
+    background:url(../dist/images/Vector1.png) no-repeat center center;
     background-size: 100% 100%;
     pointer-events: none;
 }
