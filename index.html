@@ -6,103 +6,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/fonts/FontAwesome/all.min.css">
     <link rel="stylesheet" href="dist/css/web.css">
 
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="container">
-                <nav class="navbar navbar-expand-sm navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <img src="dist/images/logopng-011.png" alt="">
-                    </a>
-                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavId">
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Trang chủ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Dịch vụ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Liên hệ</a>
-                            </li>
-                        </ul>
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="dist/images/logopng-011.png" alt="">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dịch vụ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <img src="dist/images/banner.png" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row mt-48">
+            <div class="col">
+                <h3 class="textInfo text-center">Tra cứu đơn hàng</h3>
+                <p class="text-detail text-center">(Điền nhiều mã bằng dấu cách)</p>
+            </div>
+        </div>
+        <div class="row mt-20">
+            <div class="col">
+                <form class="form">
+                    <div class="row  justify-content-md-center">
+                        <div class="col-sm-6 col-md-8">
+                            <input type="text" class="form-control fixWid" id="inputPassword2" placeholder="">
+                        </div>
+                        <div class="col-sm-2 col-md-2">
+                            <button type="submit" class="btn btn-success mb-2 responsive-content" style="width:100%">Tra cứu</button>
+                        </div>
                     </div>
-                </nav>
-                <div class="row justify-content-md-center">
-                    <div class="col-xs-1-8">
-                        <img src="dist/images/b2.png" alt="">
+                </form>
+            </div>
+        </div>
+        <div class="row justify-content-md-center mt-20">
+            <div class="col-md-10">
+                <div class="alert alert-secondary" role="alert">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3 proId text-center d-flex justify-content-around align-items-center"><span class="ship-id">1</span><label class="m-0 p-0">ABCD12345678</label> </div>
+                        <div class="w-sm-100"></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 proId text-center"><img src="dist/images/van_chuyen_disable.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us-disable.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/finish-disable.png" alt=""></div>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-48">
-                    <div class="col-xs-1-4">
-                        <h3 class="textInfo justify-content-center">Tra cứu đơn hàng</h3>
-                        <span class="lead text-detail">(Điền nhiều mã bằng dấu cách)</span>
+                <div class="alert alert-secondary" role="alert">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3 proId text-center d-flex justify-content-around align-items-center"><span class="ship-id">2</span><label class="m-0 p-0">ABCD12345678</label> </div>
+                        <div class="w-sm-100"></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 proId text-center"><img src="dist/images/van-chuyen.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us-disable.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/finish-disable.png" alt=""></div>
                     </div>
                 </div>
-                <div class="row justify-content-md-center mt-20">
-                    <div class="col-md-10">
-                        <form class="form">
-                            <div class="form-group mx-sm-3 mb-2">
-                                <input type="text" class="form-control fixWid" id="inputPassword2" placeholder="">
-                                <button type="submit" class="btn btn-success mb-2">Tra cứu</button>
-                            </div>
-                        </form>
+                <div class="alert alert-secondary" role="alert">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3 proId text-center d-flex justify-content-around align-items-center"><span class="ship-id">3</span><label class="m-0 p-0">ABCD12345678</label> </div>
+                        <div class="w-sm-100"></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 proId text-center"><img src="dist/images/van-chuyen.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/finish-disable.png" alt=""></div>
                     </div>
                 </div>
-                <div class="row justify-content-center  mt-20">
-                    <div class="col">
-                        <h3 class="textInfo text-center">Tận hưởng tiện ích từ ebayCargo</h3>
-                    </div>
-                </div>
-                <div class="row justify-content-center  mt-48">
-                    <div class="col text-center">
-                        <figure class="figure">
-                            <img src="dist/images/illustrationcarrgo-01 1.png" class="figure-img img-fluid rounded " alt="...">
-                            <figcaption class="figure-caption captionCargo">Giá cả hợp lý</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col text-center">
-                        <figure class="figure">
-                            <img src="dist/images/illustrationcarrgo-02 1.png" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption captionCargo">Vận chuyển nhanh chóng & đáng tin cậy</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col text-center">
-                        <figure class="figure">
-                            <img src="dist/images/illustrationcarrgo-03 1.png" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption captionCargo">Tra cứu trạng thái đơn mọi lúc, mọi nơi</figcaption>
-                        </figure>
-                    </div>
-                    <div class="col text-center">
-                        <figure class="figure">
-                            <img src="dist/images/illustrationcarrgo-04 1.png" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption captionCargo">Hỗ trợ đối tác <br />chuyên nghiệp</figcaption>
-                        </figure>
+                <div class="alert alert-secondary" role="alert">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-3 proId text-center d-flex justify-content-around align-items-center"><span class="ship-id">4</span><label class="m-0 p-0">ABCD12345678</label> </div>
+                        <div class="w-sm-100"></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 proId text-center"><img src="dist/images/van-chuyen.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/kho-us.png" alt=""></div>
+                        <div class="col-sm-12 col-md-6 col-lg-2 proId text-center"><img src="dist/images/finish.png" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid bgfooter">
-        <div class="row mt-48">
+        <div class="row justify-content-md-center  mt-48">
             <div class="col">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">sdfasdfg</div>
-                    </div>
+                <h3 class="textInfo text-center">Tận hưởng tiện ích từ ebayCargo</h3>
+            </div>
+        </div>
+        <div class="row justify-content-md-center  mt-48">
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+                <figure class="figure">
+                    <img src="dist/images/illustrationcarrgo-01 1.png" class="figure-img img-fluid rounded " alt="...">
+                    <figcaption class="figure-caption captionCargo">Giá cả hợp lý</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+                <figure class="figure">
+                    <img src="dist/images/illustrationcarrgo-02 1.png" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption captionCargo">Vận chuyển nhanh chóng & đáng tin cậy</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+                <figure class="figure">
+                    <img src="dist/images/illustrationcarrgo-03 1.png" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption captionCargo">Tra cứu trạng thái đơn mọi lúc, mọi nơi</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+                <figure class="figure">
+                    <img src="dist/images/illustrationcarrgo-04 1.png" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption captionCargo">Hỗ trợ đối tác <br />chuyên nghiệp</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="bgfooter mt-68 ">
+        <div class="container">
+            <div class="row justify-content-md-center mt-48">
+                <!-- <div class="col-sm-12 col-md-1"></div> -->
+                <div class="col-sm-12 col-md-4 col-lg-3">
+                    <a href="">
+                        <img src="dist/images/logopng-011.png" alt="">
+                    </a>
+                    <ul class="nav flex-column mt-20">
+                        <li class="nav-item">
+                            <a class="nav-link footerMenu" href="#">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link footerMenu" href="#">Dịch vụ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link footerMenu" href="#">Liên hệ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link footerMenu">Đăng ký tư vấn</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="col-sm-12 col-md-1"></div> -->
+                <div class="col-sm-12 col-md-4 col-lg-5">
+                    <h4 class="mt-48 captionCargo">Liên hệ</h4>
+                    <p class="footerMenu mt-20">079 567 1476</p>
+                    <p class="footerMenu">ebaycargo@gmail.com</p>
+                    <p class="footerMenu">264 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội</p>
+                </div>
+                <!-- <div class="col-sm-12 col-md-1"></div> -->
+                <div class="col-sm-12 col-md-4 col-lg-3">
+                    <h4 class="mt-48 captionCargo">Chính sách</h4>
+                    <p class="footerMenu mt-20"><a href="">Điều khoản chung</a></p>
+                    <p class="footerMenu"><a href="">Chính sách khiếu nại</a></p>
+                    <p class="footerMenu"><a href="">Chính sách bảo mật</a></p>
+                </div>
+            </div>
+            <div class="row mt-30">
+                <div class="col text-center">
+                    <address class="text-detail">Copyright © 2022 ebayCargo. All rights reserved.</address>
                 </div>
             </div>
         </div>
     </div>
 </body>
 <script src="dist/bootstrap/js/jquery-3.6.1.min.js"></script>
-<script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="dist/bootstrap/js/bootstrap.min.js"></script>
 </html>
