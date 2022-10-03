@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dist/fonts/FontAwesome/css/all.min.css">
     <link rel="stylesheet" href="dist/css/web.css">
+    <link rel="stylesheet" href="dist/css/contactStyle.css">
 
 </head>
 <body>
@@ -35,19 +35,42 @@
             </div>
         </nav>
         <div class="row">
-            <div class="col-md-6">
-                <h1>Liên hệ với chúng tôi</h1>
-                
+            <div class="col-md-6 contact-card">
+                <h1 class="f-size-29 f-weight-500 mb-5">Liên hệ với chúng tôi</h1>
+                <p class="d-flex align-items-center f-size-16 f-weight-400 mb-4"><span class="iconify mr-3 f-size-24" data-icon="carbon:phone-voice-filled"></span>079 567 1476</p>
+                <p class="d-flex align-items-center f-size-16 f-weight-400 mb-4"><span class="iconify mr-3 f-size-24" data-icon="ic:baseline-email"></span>ebaycargo@gmail.com</p>
+                <p class="d-flex align-items-center f-size-16 f-weight-400 mb-0"><span class="iconify mr-3 f-size-24" data-icon="ic:baseline-location-on"></span>264 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội</p>
+                <ul class="list-unstyled d-flex">
+                    <li><a href="#" class=""><img src="dist/images/telegramIcon.png" alt=""></a></li>
+                    <li><a href="#" class=""><img src="dist/images/facebookIcon.png" alt=""></a></li>
+                    <li><a href="#" class=""><img src="dist/images/zaloIcon.png" alt=""></a></li>
+                </ul>
+                <div class=""></div>
+                <div class=""></div>
             </div>
             <div class="col-md-5 offset-md-1">
-
+                <h2 class="f-size-29 f-weight-500 mb-5">Để lại lời nhắn</h2>
+                <form action="">
+                    <div class="form-group mb-4">
+                        <input type="text" name="" class="w-100 custom-input" id="">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="email" name="" class="w-100 custom-input" id="">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" name="" class="w-100 custom-input" id="">
+                    </div>
+                    <div class="form-group mb-4">
+                        <textarea name="" class="custom-textarea w-100 custom-input" id=""></textarea>
+                    </div>
+                    <button type="submit" class="btn bg-main-green text-white text-uppercase submit-size">Gửi</button>
+                </form>
             </div>
         </div>
     </div>
     <div class="bgfooter mt-68 ">
         <div class="container">
             <div class="row justify-content-md-center">
-                <!-- <div class="col-sm-12 col-md-1"></div> -->
                 <div class="col-sm-12 col-md-4 col-lg-3">
                     <a href="">
                         <img src="dist/images/logopng-011.png" alt="">
@@ -67,19 +90,17 @@
                         </li>
                     </ul>
                 </div>
-                <!-- <div class="col-sm-12 col-md-1"></div> -->
                 <div class="col-sm-12 col-md-4 col-lg-5">
                     <h4 class="mt-48 captionCargo">Liên hệ</h4>
-                    <p class="footerMenu mt-20">079 567 1476</p>
-                    <p class="footerMenu">ebaycargo@gmail.com</p>
-                    <p class="footerMenu">264 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội</p>
+                    <p class="footerMenu mt-20 d-flex align-items-center"><span class="iconify mr-3 f-size-18" data-icon="carbon:phone-voice-filled"></span>079 567 1476</p>
+                    <p class="footerMenu d-flex align-items-center"><span class="iconify mr-3 f-size-18" data-icon="ic:baseline-email"></span>ebaycargo@gmail.com</p>
+                    <p class="footerMenu d-flex align-items-center"><span class="iconify mr-3 f-size-18" data-icon="ic:baseline-location-on"></span>264 Đội Cấn, Liễu Giai, Ba Đình, Hà Nội</p>
                     <div class="">
                         <a href="#" class="mr-2"><img src="dist/images/telegramIcon.png" alt=""></a>
                         <a href="#" class="mr-2"><img src="dist/images/facebookIcon.png" alt=""></a>
                         <a href="#" class="mr-2"><img src="dist/images/zaloIcon.png" alt=""></a>
                     </div>
                 </div>
-                <!-- <div class="col-sm-12 col-md-1"></div> -->
                 <div class="col-sm-12 col-md-4 col-lg-3">
                     <h4 class="mt-48 captionCargo">Chính sách</h4>
                     <p class="footerMenu mt-20"><a href="">Điều khoản chung</a></p>
@@ -97,4 +118,5 @@
 </body>
 <script src="dist/bootstrap/js/jquery-3.6.1.min.js"></script>
 <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="dist/fonts/Iconify/iconify.min.js"></script>
 </html>

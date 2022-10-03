@@ -1,0 +1,48 @@
+.contact-card{
+    background-color: #C7E5CB;
+    position: relative;
+    overflow: hidden;
+    padding-top: 33px;
+    padding-left: 88px;
+    padding-bottom: 175px;
+    border-radius: 25px;
+}
+.contact-card>div:nth-of-type(1),.contact-card>div:nth-of-type(2){
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+}
+.contact-card>div:nth-of-type(1){
+    background-color: rgba(34, 172, 76, 0.8);
+    width: 112px;
+    height: 111px;
+    transform: translate(30%, 100%);
+    z-index: 1;
+}
+.contact-card>div:nth-of-type(2){
+    background-color: #FAA61A;
+    width: 226.29px;
+    height: 224.52px;
+    transform: translate(45%, 50%);
+}
+
+.contact-card>ul{
+    gap: 32px;
+    margin-top: 64px;
+}
+.custom-input{
+    padding: 9px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F2F2F2;
+}
+.custom-textarea{
+    resize: none;
+    height: 119px !important;
+}
+.submit-size{
+    width: 129px;
+    height: 42px;
+    border-radius: 15px;
+}

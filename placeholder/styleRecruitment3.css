@@ -1,0 +1,99 @@
+.name-project {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #e8a712;
+  }
+  #main{
+    width: 70% !important;
+    margin: 0 auto;
+}
+.recruitInfo {
+    width: 100%;
+    background: #2a2550;
+    border-radius: 20px;
+    padding: 25px 35px;
+    margin-bottom: 25px;
+  }
+  .font-wrap{
+    margin-right: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* copied */
+.modern-form {
+  margin: 30px auto;
+  padding: 20px 10px;
+}
+
+.modern-form h3 {
+  text-align: center;
+}
+
+.float-label-field {
+  border: none;
+  outline: none;
+  position: relative;
+  margin: 0 0 20px 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.float-label-field input ,.float-label-field select {
+  border: none;
+  outline: none;
+  padding: 5px 5px 8px 0px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border-bottom: solid 1px #efefef;
+}
+
+#userInfo{
+  background-color: transparent;
+  color: white;
+  height: 300px;
+  resize: none;
+}
+
+.float-label-field select>option{
+  background-color: #2a2550;
+}
+
+.float-label-field label {
+  opacity: 0.5;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  transition: all 0.2s ease;
+  font-size: 18px;
+}
+
+.float-label-field.focus label {
+  color: orange;
+}
+.float-label-field.focus input {
+  border-bottom: solid 1px orange;
+}
+.float-label-field.float label {
+  opacity: 1;
+  top: -8px;
+  font-size: 60%;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+#userCV::-webkit-file-upload-button{
+  visibility: hidden;
+}
+#userCV::before {
+  content: 'Tải lên CV của bạn';
+  display: inline-block;
+  padding: 5px 8px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 10pt;
+}
