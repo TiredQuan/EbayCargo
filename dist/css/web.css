@@ -172,3 +172,15 @@ body{
 .search-history a{
     color: #7E7E7E;
 }
+.color-main-green{
+    color: var(--main-green);
+}
+.bg-main-green{
+    background-color: var(--main-green);
+}
+
+.cta-size{
+    width: 211px;
+    height: 42px;
+    border-radius: 15px;
+}
