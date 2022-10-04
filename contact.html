@@ -35,7 +35,7 @@
             </div>
         </nav>
         <div class="row">
-            <div class="col-md-6 contact-card">
+            <div class="col-md-6 mt-5 contact-card">
                 <h1 class="f-size-29 f-weight-500 mb-5">Liên hệ với chúng tôi</h1>
                 <p class="d-flex align-items-center f-size-16 f-weight-400 mb-4"><span class="iconify mr-3 f-size-24" data-icon="carbon:phone-voice-filled"></span>079 567 1476</p>
                 <p class="d-flex align-items-center f-size-16 f-weight-400 mb-4"><span class="iconify mr-3 f-size-24" data-icon="ic:baseline-email"></span>ebaycargo@gmail.com</p>
@@ -48,23 +48,28 @@
                 <div class=""></div>
                 <div class=""></div>
             </div>
-            <div class="col-md-5 offset-md-1">
+            <div class="col-md-5 mt-5 offset-md-1">
                 <h2 class="f-size-29 f-weight-500 mb-5">Để lại lời nhắn</h2>
                 <form action="">
-                    <div class="form-group mb-4">
-                        <input type="text" name="" class="w-100 custom-input" id="">
+                    <div class="form-group mb-4 float-label-field">
+                        <label for="fullname">Họ và tên</label>
+                        <input type="text" name="fullname" class="w-100 custom-input" id="fullname">
                     </div>
-                    <div class="form-group mb-4">
-                        <input type="email" name="" class="w-100 custom-input" id="">
+                    <div class="form-group mb-4 float-label-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" class="w-100 custom-input" id="email">
                     </div>
-                    <div class="form-group mb-4">
-                        <input type="text" name="" class="w-100 custom-input" id="">
+                    <div class="form-group mb-4 float-label-field">
+                        <label for="phoneNum">Số điện thoại</label>
+                        <input type="text" name="phoneNum" class="w-100 custom-input" id="phoneNum">
                     </div>
-                    <div class="form-group mb-4">
-                        <textarea name="" class="custom-textarea w-100 custom-input" id=""></textarea>
+                    <div class="form-group mb-4 float-label-field">
+                        <label for="mes">Lời nhắn</label>
+                        <textarea name="mes" class="custom-textarea w-100 custom-input" id="mes"></textarea>
                     </div>
                     <button type="submit" class="btn bg-main-green text-white text-uppercase submit-size">Gửi</button>
                 </form>
+                
             </div>
         </div>
     </div>
@@ -119,4 +124,5 @@
 <script src="dist/bootstrap/js/jquery-3.6.1.min.js"></script>
 <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="dist/fonts/Iconify/iconify.min.js"></script>
+<script src="dist/js/contactScript.js"></script>
 </html>

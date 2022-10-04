@@ -36,13 +36,46 @@
     border-radius: 15px;
     border: none;
     background-color: #F2F2F2;
+    font-size: 16px;
 }
 .custom-textarea{
     resize: none;
     height: 119px !important;
+    transition: color 0.2s ease;
+    font-size: 16px;
 }
 .submit-size{
     width: 129px;
     height: 42px;
     border-radius: 15px;
 }
+
+
+.float-label-field label {
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    cursor:text;
+  }
+  
+  .float-label-field{
+    position: relative;
+  }
+
+  .float-label-field.focus label {
+    color: black;
+  }
+  .float-label-field.focus input {
+    border-bottom: solid 1px black;
+  }
+  .float-label-field.float label {
+    opacity: 1;
+    top: -20px;
+    font-size: 80%;
+    transition: all 0.2s ease;
+    font-weight: bold;
+    cursor: default;
+  }
